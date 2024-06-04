@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ride-sharing"
+  description: "Ride Sharing application"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/ride-sharing"
+    argocd/app-name: "ride-sharing"
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://ride-sharing.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
