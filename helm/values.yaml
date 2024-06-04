@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/ride-sharing
-  tag: 'latest'
+  tag: 2c4b36b6efd19948329dc33895e486cc2048899c
   pullPolicy: Always
 
 service:
